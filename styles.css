@@ -19,6 +19,8 @@ body {
     border: 1px solid black;
 }
 
+/* HEADER */
+
 .header {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -125,13 +127,19 @@ input:focus {
     color: white;
 }
 
+/* SIDEBAR */
+
 .sidebar {
     grid-column: span 1;
     grid-row-start: 1;
     grid-row-end: 3;
     display: grid;
     grid-template-rows: 1fr 4fr 6fr;
+    background: #a7f3d0;
 }
+
+
+/* CONTENT */
 
 .content {
     grid-row-start: 2;

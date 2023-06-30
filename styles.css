@@ -78,6 +78,8 @@ input:focus {
     border-radius: 50%;
     height: 5rem;
     width: 5rem;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .welcome-container {
@@ -91,19 +93,14 @@ input:focus {
     column-gap: 0.5rem;
 }
 
-.welcome-container > p {
+.welcome-container>p {
     margin: 0;
     align-self: end;
     font-weight: bold;
 }
 
-.welcome-container > h2 {
+.welcome-container>h2 {
     margin: 0;
-}
-
-.profile-picture-big {
-    grid-row-start: 1;
-    grid-row-end: 3;
 }
 
 .button-container {
@@ -111,6 +108,21 @@ input:focus {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.button-container button {
+    background: #10b981;
+    border: none;
+    border-radius: 20px;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
 }
 
 .sidebar {

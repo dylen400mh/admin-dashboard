@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+}
+
+.container div {
+    border: 1px solid black;
+}
+
+.header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: span 1;
+}
+
+.sidebar {
+    grid-column: span 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.content {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-row-end: 3;
+}

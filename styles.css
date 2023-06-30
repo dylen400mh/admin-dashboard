@@ -27,6 +27,27 @@ body {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.search-container img {
+    height: 2rem;
+    width: 2rem;
+}
+
+input {
+    background: #c7d2fe;
+    border: none;
+    height: 1.5rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+input:focus {
+    outline: none;
 }
 
 .profile-container {

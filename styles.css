@@ -54,6 +54,8 @@ body {
     grid-column: span 1;
     grid-row-start: 1;
     grid-row-end: 3;
+    display: grid;
+    grid-template-rows: 1fr 4fr 6fr;
 }
 
 .content {

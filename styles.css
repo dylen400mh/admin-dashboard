@@ -231,6 +231,26 @@ li img {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column: 2 / span 1;
+    padding-left: 1rem;
+}
+
+.announcements {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 3px 1px black;
+    padding: 1.5rem;
+}
+
+.announcements h4, .announcements p {
+    margin: 0;
+}
+
+.border {
+    height: 1px;
+    width: 100%;
+    background: lightgray;
+    margin: 1rem 0;
+
 }
 
 .trending-container {

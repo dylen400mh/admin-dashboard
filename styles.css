@@ -133,7 +133,7 @@ input:focus {
     display: grid;
     grid-template-rows: auto auto 1fr;
     background: #34d399;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .sidebar div {

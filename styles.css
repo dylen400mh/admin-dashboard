@@ -270,6 +270,7 @@ li img {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: repeat(2, 1fr);
+    column-gap: 0.5rem;
 }
 
 .trend img {
